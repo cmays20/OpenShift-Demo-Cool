@@ -7,3 +7,8 @@ patches:
       version: v1beta1
       kind: MachineSet
     path: patch-zone-a.yaml
+  - target:
+      group: machine.openshift.io
+      version: v1beta1
+      kind: MachineSet
+    path: patch-replicas.yaml
